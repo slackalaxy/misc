@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=GNOME pkgtool
+Comment=Slackware Linux package management tool
+Exec=gnome-pkgtool
+Icon=gnome-pkgtool.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=System
+ 

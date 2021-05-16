@@ -1,0 +1,20 @@
+NOTE!
+This program is from 2004. I like to have it just for fun and I do use
+it to browse my installed packages or view their contents, but I do not
+run it as root and I would not rely on it for package install/uninstall.
+Also, the option to build a packages from source does not work, as it
+relied on good old checkinstall.
+
+I don't know if it is safe to use anymore, so you've been warned! -Petar
+
+This is a GTK+ front-end to the Slackware package management tools
+(pkgtool). With gnome-pkgtool you can do the following actions to your
+Slackware Linux installation:
+
+- Install .t?z packages
+- Uninstall installed packages
+- Re-install/upgrade installed packages
+- Inspect packages content
+
+For its function, gnome-pkgtool relies on installpkg and removepkg
+tools for installing and uninstalling packages.
