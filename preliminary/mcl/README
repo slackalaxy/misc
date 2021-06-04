@@ -1,0 +1,22 @@
+The MCL algorithm is short for the Markov Cluster Algorithm, a fast and
+scalable unsupervised cluster algorithm for graphs (also known as
+networks) based on simulation of (stochastic) flow in graphs.
+
+Natural clusters in a graph are characterised by the presence of many
+edges between the members of that cluster, and one expects that the
+number of higher-length (longer) paths between two arbitrary nodes in
+the cluster is high. In particular, this number should be high, relative
+to node pairs lying in different natural clusters. A different angle on
+this is that random walks on the graph will infrequently go from one
+natural cluster to another.
+
+The MCL algorithm finds cluster structure in graphs by a mathematical
+bootstrapping procedure. The process deterministically computes (the
+probabilities of) random walks through the graph, and uses two operators
+transforming one set of probabilities into another. It does so using the
+language of stochastic matrices (also called Markov matrices) which
+capture the mathematical concept of random walks on a graph.
+
+Citing:
+Stijn van Dongen, Graph Clustering by Flow Simulation. PhD thesis,
+University of Utrecht, May 2000.
