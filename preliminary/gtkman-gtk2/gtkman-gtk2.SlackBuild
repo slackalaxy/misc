@@ -55,6 +55,9 @@ find -L . \
 sed -i "s:/usr/local:/usr:g" Makefile
 sed -i "s:/share/man:/man:g" Makefile
 
+# Shall we modify the default font used by GTKman and set the size?
+sed -i "s:monospace:DejaVuSansMono 12:" src/$SRCNAM
+
 make
 make install DESTDIR=$PKG
 
